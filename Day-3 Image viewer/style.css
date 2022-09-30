@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Source+Sans+Pro&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    
+    
+}
+
+.hl{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-weight: 100px;
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: 'Nunito Sans', sans-serif; */
+}
+
+
+.controls{
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+
+
+
+
+
